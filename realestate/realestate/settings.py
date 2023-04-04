@@ -79,10 +79,11 @@ WSGI_APPLICATION = 'realestate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'realstatenew',
+        'NAME': 'realestate',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
+        'PASSWORD': 'goldenapple123',
+        'HOST': 'realestate.cgyup4uhr8li.eu-north-1.rds.amazonaws.com',
+        'PORT' : '5432',
     }
 }
 
