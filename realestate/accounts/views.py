@@ -73,7 +73,7 @@ def login_view(request):
                 return redirect("tenant")
             else:
                 msg = 'Invalid credentials'
-                return redirect('login')
+                return render(request,'login.html',{'form':form, 'msg':msg})
         else:
             msg = 'error'
     return render(request,'login.html',{'form':form, 'msg':msg})
