@@ -48,7 +48,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="{% url 'index' %}">
                                         <img style="width:200px" src="{% static 'img/logo.png' %}" alt="">
                                     </a>
                                 </div>
@@ -57,7 +57,7 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.html">home</a></li>
+                                            <li><a class="active" href="{% url 'index' %}">home</a></li>
                                             <li><a href="{% url 'underconstruction' %}">About</a></li>
                                          
                                            
