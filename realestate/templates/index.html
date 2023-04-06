@@ -229,7 +229,7 @@
                             <img src="{{ listing.image.url }}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">{{ listing.title }} <a style="margin-left:80px" href="travel_destination.html">View</a> <a href="#" class="prise">{{ listing.price }}</a> </p>
+                            <p class="d-flex align-items-center">{{ listing.title }} <a style="margin-left:80px" href="{% url 'listing_detail' listing.pk %}">View</a> <a href="#" class="prise">{{ listing.price }}</a> </p>
                             
                         </div>
                     </div>
